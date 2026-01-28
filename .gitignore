@@ -1,0 +1,59 @@
+# =====================
+# Jupyter Notebook
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# =====================
+# Environment variables
+# =====================
+.env
+.env.*
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Editor / IDE
+# =====================
+.vscode/
+.idea/
+
+# =====================
+# Data files (optional)
+# Uncomment if you don't want raw data in git
+# =====================
+# data/
+# *.csv
+# *.xlsx
+# *.parquet
+# *.json
+
+# =====================
+# Model artifacts (ML)
+# =====================
+models/
+*.pkl
+*.joblib
+*.h5
+
+# =====================
+# Logs
+# =====================
+*.log
